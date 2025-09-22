@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Landing Page</title>
+  <title>Landing Page</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <header>
-    <div class="logo">BiRag</div>
+
+  <header>
+    <div class="logo">MyLogo</div>
     <nav>
       <ul class="nav-links">
         <li><a href="#">Home</a></li>
@@ -16,30 +17,35 @@
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-      <div class="menu-toggle">&#9776;</div>
+      <div class="menu-toggle">☰</div>
     </nav>
   </header>
+
   <section class="hero">
     <div class="hero-content">
-      <h1>Welcome to My Landing Page</h1>
-      <p>Build modern, responsive websites easily using HTML, CSS, and Flexbox/Grid.</p>
+      <h1>Welcome to Our Landing Page</h1>
+      <p>We provide amazing solutions to help your business grow online.</p>
       <a href="#" class="btn">Get Started</a>
     </div>
   </section>
-<footer>
-    <p>&copy; 2025 MyBrand. All rights reserved.</p>
-    <div class="socials">
+
+  <footer>
+    <p>&copy; 2025 MyCompany. All rights reserved.</p>
+    <div class="social-links">
       <a href="#">🌐</a>
       <a href="#">🐦</a>
       <a href="#">📘</a>
     </div>
   </footer>
-<script>
+
+
+  <script>
     const toggle = document.querySelector(".menu-toggle");
     const navLinks = document.querySelector(".nav-links");
     toggle.addEventListener("click", () => {
       navLinks.classList.toggle("active");
     });
   </script>
+
 </body>
 </html>
